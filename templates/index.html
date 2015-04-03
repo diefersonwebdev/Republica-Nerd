@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>República Nerd</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="{{ url_for('static', filename='style.css') }}" rel="stylesheet">
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,700" rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+<section id="container">
+		<section id="containerHeader">
+		<a href="/"><img src="static/logotipo.png" width="437" height="102" border="0"></a>
+		</section><!--CONTAINER TOPO-->
+
+	<section id="containerContent">
+	<section class="containerFriends">
+			<img src="static/friends.png" width="533" height="390">
+		</section><!--FRIENDS IMAGE-->
+
+    <section id="containerForm">
+             <h1>Entrar com Sua Conta</h1>
+      <br>
+      <form action="" method="post">
+        <input type="text" placeholder="Nome de Usuário" name="username" value="{{
+          request.form.username }}">
+         <input type="password" placeholder="Sua Senha" name="password" value="{{
+          request.form.password }}">
+        <input class="btn" type="submit" value="Entrar">
+      </form>
+      {% if error %}
+        <p class="error"><strong>Ops! Algo Errado: </strong> {{ error }}</p>
+      {% endif %}
+    </section>
+
+
+
+ </section><!--CONTAINER CONTENT-->
+
+</section><!--CONTAINER GERAL-->
+
+
+
+
+
+
+</body>
+</html>

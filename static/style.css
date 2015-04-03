@@ -1,0 +1,35 @@
+*{margin: 0; padding: 0;}
+
+body{ margin: 0; width: 1080px; color: #f1f1f2; background: #44d3e2;}
+
+#container{float: left; margin: 0 auto; width: 1024px;}
+#containerHeader{float: left; width: 1024px; height: 230px;}
+#containerHeader img{float: left; width: 437px; margin: 20px 0 0 160px;}
+
+#containerContent{float: left; width: 1024px;}
+.containerFriends{float: left; width: 600px; margin: 0 0 0 10px; margin-top: -110px;}
+.containerFriends img{float: left; width: 533px; margin: 0 0 0 90px;}
+
+#containerForm{float: left; width: 302px; margin: 0 0 0 800px; margin-top: -480px;}
+#containerForm h1{float: left; font-size:18px; font-family: 'Open Sans', sans-serif; color:#FFF;}
+#containerForm form{float: left; width: 300px;}
+#containerForm p{font-size: 16px; color:#f1f1f2; font-family: 'Open Sans', sans-serif; font-weight: bold;}
+#containerForm input{float: left; width: 280px; height: 30px; border-radius: 10px; margin: 0 0 10px 0;
+					background: none; border:none; border: 1px solid #fff; 
+					padding: 10px; font-size: 16px; font-family: 'Open Sans', sans-serif; color: #FFF;}
+
+#containerForm .btn {float: right; width: 100px; height: 50px; font-size: 18px;
+					font-family: 'Open Sans', sans-serif; color: #FFF; background: #13ab7f; 
+					border:none; border-radius: 10px; cursor: pointer;}
+#containerForm .btn:hover{background: #000;}
+
+
+
+
+
+/*PÁGINA HOME*/
+.logotipo{float:left; width50px;}
+
+
+
+
